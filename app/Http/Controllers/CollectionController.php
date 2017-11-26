@@ -16,7 +16,7 @@ class CollectionController extends Controller
     public function show(Collection $collection)
     {
         
-        return $collection
+        return $collection;
     }
     
     public function store(Request $request)

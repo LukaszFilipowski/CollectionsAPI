@@ -16,7 +16,7 @@ class NameController extends Controller
     public function show(Name $name)
     {
         
-        return $name
+        return $name;
     }
     
     public function store(Request $request)

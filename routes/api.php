@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('getToken', 'AuthController@generateToken')->name('getToken');\
+Route::get('getToken', 'AuthController@generateToken')->name('getToken');
     
 //names
 Route::get('names', 'NameController@index');
